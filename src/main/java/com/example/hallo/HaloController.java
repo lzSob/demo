@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HaloController {
     @RequestMapping(value="/")
     public String say(){
-        return  "Halo Springboot!";
+        return  "Hello Springboot!";
+
     }
 }
